@@ -9,3 +9,5 @@ NCBI Database For Genes: https://www.ncbi.nlm.nih.gov/gene
 
 Orthologs for ispA K-12 E.coli strain
 https://www.orthodb.org/?ncbi=945064
+
+NCBI Reference Sequence: NZ_AP019630.1 Enterobacter asburiae strain 17Nkhm-UP2 chromosome, complete genome
