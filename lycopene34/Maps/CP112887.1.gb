@@ -1,0 +1,177 @@
+LOCUS       CP112887                1300 bp    DNA     linear   BCT 28-AUG-2023
+DEFINITION  Klebsiella electrica strain S2-IND-01-C chromosome, complete
+            genome.
+ACCESSION   CP112887 REGION: 4213661..4214960
+VERSION     CP112887.1
+DBLINK      BioProject: PRJNA902659
+            BioSample: SAMN31765424
+KEYWORDS    .
+SOURCE      Klebsiella electrica
+  ORGANISM  Klebsiella electrica
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Enterobacteriaceae; Klebsiella/Raoultella group;
+            Klebsiella.
+REFERENCE   1  (bases 1 to 1300)
+  AUTHORS   Aldeia,C., Campos-Madueno,E.I., Sendi,P. and Endimiani,A.
+  TITLE     Complete Genome Sequence of the First Colistin-Resistant Raoultella
+            electrica Strain
+  JOURNAL   Microbiol Resour Announc 12 (5), e0004723 (2023)
+   PUBMED   37014211
+REFERENCE   2  (bases 1 to 1300)
+  AUTHORS   Aldeia,C., Campos-Madueno,E.I. and Endimiani,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-NOV-2022) Institute for Infectious Diseases,
+            University of Bern, Friedbuehlstrasse 51, Bern 3010, Switzerland
+COMMENT     The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: Unicycler v. v0.4.8
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 425.089x
+            Sequencing Technology  :: Illumina NovaSeq; Oxford Nanopore MinION
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 11/18/2022 12:01:50
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.3
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 5,384
+            CDSs (total)                      :: 5,265
+            Genes (coding)                    :: 5,134
+            CDSs (with protein)               :: 5,134
+            Genes (RNA)                       :: 119
+            rRNAs                             :: 9, 8, 8 (5S, 16S, 23S)
+            complete rRNAs                    :: 9, 8, 8 (5S, 16S, 23S)
+            tRNAs                             :: 84
+            ncRNAs                            :: 10
+            Pseudo Genes (total)              :: 131
+            CDSs (without protein)            :: 131
+            Pseudo Genes (ambiguous residues) :: 0 of 131
+            Pseudo Genes (frameshifted)       :: 51 of 131
+            Pseudo Genes (incomplete)         :: 110 of 131
+            Pseudo Genes (internal stop)      :: 17 of 131
+            Pseudo Genes (multiple problems)  :: 39 of 131
+            CRISPR Arrays                     :: 3
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1300
+                     /organism="Klebsiella electrica"
+                     /mol_type="genomic DNA"
+                     /strain="S2-IND-01-C"
+                     /isolation_source="stool"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1259973"
+                     /geo_loc_name="Switzerland"
+                     /lat_lon="46.947928 N 7.422277 E"
+                     /collection_date="2022"
+                     /collected_by="Institute for Infectious Diseases (IFIK),
+                     University of Bern, Friedbuehlstrasse 51, 3001 Bern,
+                     Switzerland"
+     gene            <1..200
+                     /gene="xseB"
+                     /locus_tag="OR613_20500"
+     CDS             <1..200
+                     /gene="xseB"
+                     /locus_tag="OR613_20500"
+                     /EC_number="3.1.11.6"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:YP_005225414.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=3
+                     /transl_table=11
+                     /product="exodeoxyribonuclease VII small subunit"
+                     /protein_id="WBW60372.1"
+                     /translation="MPKKNEAPASFETALGELEQIVNRLESGALPLEEALSEFERGVQ
+                     LARQGQARLQQAEQRVQILLADSEDSPLTPFTPDAE"
+     gene            201..1100
+                     /gene="ispA"
+                     /locus_tag="OR613_20505"
+     CDS             201..1100
+                     /gene="ispA"
+                     /locus_tag="OR613_20505"
+                     /EC_number="2.5.1.10"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:YP_005225413.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology.
+                     GO_process: GO:0008299 - isoprenoid biosynthetic process
+                     [Evidence IEA]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="(2E,6E)-farnesyl diphosphate synthase"
+                     /protein_id="WBW60373.1"
+                     /translation="MDFSQQLHACVEQANDALRRFLAPLPFQNTPLVEAMQYGALLGG
+                     KRLRPFLVYATGDMFGVSRATLDAPAAAVECIHAYSLMHDDLPAMDDDDLRRGLPTSH
+                     IKFGEANAILAGDALQTLAFSILSDAPMPEVPDSDRLAMVSTLAQASGVAGMCGGQAL
+                     DLQAEGHQVDLQALERIHRHKTGALICAAVRMGALSAGERGRAALPALDRFAQNIGLA
+                     FQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKAHDLIEDARQSLSE
+                     LAVQSLDTTALEALANYIIQRDK"
+     gene            1117..>1300
+                     /gene="dxs"
+                     /locus_tag="OR613_20510"
+     CDS             1117..>1300
+                     /gene="dxs"
+                     /locus_tag="OR613_20510"
+                     /EC_number="2.2.1.7"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:YP_005225412.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology.
+                     GO_component: GO:0005737 - cytoplasm [Evidence IEA];
+                     GO_function: GO:0008661 - 1-deoxy-D-xylulose-5-phosphate
+                     synthase activity [Evidence IEA];
+                     GO_process: GO:0008615 - pyridoxine biosynthetic process
+                     [Evidence IEA];
+                     GO_process: GO:0009228 - thiamine biosynthetic process
+                     [Evidence IEA];
+                     GO_process: GO:0009240 - isopentenyl diphosphate
+                     biosynthetic process [Evidence IEA]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="1-deoxy-D-xylulose-5-phosphate synthase"
+                     /protein_id="WBW60374.1"
+                     /translation="MSFDIAKYPTLALVDSTQELRLLPKDSLPKLCDELRRYLLDSVS
+                     RSSGHFASGLGTVELTVALHYVYNTPFDRLIWDVGHQAYPHKILTGRRDKIGTIRQKG
+                     GLHPFPWRGESEYDVLSVGHSSTSISAGIGVAIAAAKEDKQRRAVCVIGDGAITAGMA
+                     FEAMNHAGDIKPDLLVVLNDNEMSISENVGALNNHLAQLLSGKLYSTLREGGKKVFSG
+                     VPPIKELLKRTEEHLKGMVVPGTLFEELGFNYIGPVDGHDVLGLVNTLKNMRDLKGPQ
+                     FLHIMTKKGRGYEPAEKDPITFHAVPKFDHTSGVLPKSSGGLPSYSKIFGDWLCETAA
+                     KDSKLMAITPAMREGSGMVEFSRKYPDQYFDVAIAEQHAVTFAAGLAIGDYKPVVAIY
+                     STFLQRAYDQVIHDVAIQKLPVLFAIDRAGIVGADGQTHQGAFDLSFLRCIPDMVIMT
+                     PSDENECRQMLYTGYHYNEGPSAVRYPRGTGTGATLQPLASLPIGKGVVKRTGEKVAI
+                     LNFGTLLPEAAQVADKLNATLVDMRFVKPLDDALILQLAADHDVLVTLEENAIMGGAG
+                     SGVNELLMANRRAVPVLNIGLPDVFIPQGTQEEVRADLGLDAAGIEAKITTWLA"
+ORIGIN      
+        1 tgggcgagct ggagcagatt gttaatcgtc tggaaagcgg cgcgctgccg ctagaagagg
+       61 cgctcagcga atttgagcgc ggcgtacagc tggcgcgtca ggggcaggcc cgattgcagc
+      121 aggccgaaca gcgcgtccag attctgctgg ccgacagcga ggatagcccg ctgacgccgt
+      181 ttacaccgga tgctgaataa atggacttct cgcaacaatt acatgcttgc gttgagcagg
+      241 ccaacgacgc attacgtcgt ttcctcgctc cgctgccttt tcagaacacc ccactggttg
+      301 aagccatgca gtacggagca ctattaggcg gaaaacgcct gcgcccgttc ctcgtctatg
+      361 ccaccggcga catgttcggc gtcagccgcg cgacgctgga cgccccggcc gccgccgtcg
+      421 aatgcatcca tgcttactct ctgatgcatg acgatctgcc cgccatggac gatgacgatc
+      481 tgcgtcgcgg tctgccgacc agccacatta aatttggtga agcaaacgca attcttgccg
+      541 gagatgccct acaaacgctg gcattttcta tactgagtga tgcgccaatg cctgaagtgc
+      601 cggacagcga tcgtctggcc atggtttcga cgctggcaca ggccagcggc gtcgccggaa
+      661 tgtgcggcgg acaggcgctg gatctgcaag ccgaaggcca ccaggttgac ctgcaggcgc
+      721 tggagcgcat ccatcgccac aaaaccggcg cgctgatatg cgccgcggtg cgtatgggcg
+      781 cgctgagcgc aggtgaacgt ggccgggcgg ccctgccggc gctcgatcgc tttgcgcaaa
+      841 atatcggtct cgccttccag gtccaggatg acattcttga cgtggtaggg gatactgcga
+      901 cccttggcaa acgccaggga gctgaccagc agctaggcaa aagcacctat cctgcgcttc
+      961 tgggacttga acaagcgcgt aaaaaagcgc atgacctgat tgaagacgcc cgtcagtcgc
+     1021 tgagtgagct ggccgtgcaa tctctggata cgacggcact ggaagcgctc gcgaattaca
+     1081 taattcagcg tgataaataa acaataagag tctctgatga gttttgatat tgccaaatac
+     1141 ccgaccctgg cgctggtgga ttccacccag gagttgcgtt tgttgccgaa agacagcctg
+     1201 ccgaaactgt gcgacgaact ccggcgctac ctgctggaca gcgtcagccg ttccagcggg
+     1261 cattttgcct ccggcctcgg cacggtcgaa ctgaccgtgg
+//
+

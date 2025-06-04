@@ -1,0 +1,4 @@
+PCR oSeF oSeR CP074309.1 pcrSe
+PCR gB6F gB6R pLYC72 back72
+GoldenGate pcrSe back72 BsaI ggSe
+Transform ggSe Mach1 Amp 37 pLYC80

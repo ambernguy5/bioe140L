@@ -1,0 +1,163 @@
+LOCUS       CP041362                1487 bp    DNA     linear   BCT 14-JUL-2019
+DEFINITION  Citrobacter amalonaticus strain 133355-SW-C4-Cam chromosome,
+            complete genome.
+ACCESSION   CP041362 REGION: complement(1223100..1224586)
+VERSION     CP041362.1
+DBLINK      BioProject: PRJNA543044
+            BioSample: SAMN11653541
+KEYWORDS    .
+SOURCE      Citrobacter amalonaticus
+  ORGANISM  Citrobacter amalonaticus
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Enterobacteriaceae; Citrobacter.
+REFERENCE   1  (bases 1 to 1487)
+  AUTHORS   Clement,M., Keller,P.M., Bernasconi,O.J., Stirnimann,G., Frey,P.M.,
+            Bloemberg,G.V., Sendi,P. and Endimiani,A.
+  TITLE     First Clinical Case of In Vivo Acquisition of DHA-1
+            plasmid-mediated AmpC
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1487)
+  AUTHORS   Clement,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUL-2019) Institute for Infectious Diseases,
+            University of Bern, Friedbuehlstrasse 51, Bern, Bern 3001,
+            Switzerland
+COMMENT     The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: Canu v. v1.7.1; Pilon v. v1.22
+            Assembly Name          :: 133355-SW-C4-Cam
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 40.0x
+            Sequencing Technology  :: Oxford Nanopore MiniION; Illumina NovaSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 07/08/2019 13:52:53
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.8
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 4,610
+            CDSs (total)                      :: 4,495
+            Genes (coding)                    :: 4,408
+            CDSs (with protein)               :: 4,408
+            Genes (RNA)                       :: 115
+            rRNAs                             :: 8, 7, 7 (5S, 16S, 23S)
+            complete rRNAs                    :: 8, 7, 7 (5S, 16S, 23S)
+            tRNAs                             :: 84
+            ncRNAs                            :: 9
+            Pseudo Genes (total)              :: 87
+            CDSs (without protein)            :: 87
+            Pseudo Genes (ambiguous residues) :: 0 of 87
+            Pseudo Genes (frameshifted)       :: 43 of 87
+            Pseudo Genes (incomplete)         :: 47 of 87
+            Pseudo Genes (internal stop)      :: 24 of 87
+            Pseudo Genes (multiple problems)  :: 22 of 87
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1487
+                     /organism="Citrobacter amalonaticus"
+                     /mol_type="genomic DNA"
+                     /strain="133355-SW-C4-Cam"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:35703"
+                     /geo_loc_name="Switzerland: Bern"
+                     /collection_date="2019-04"
+     gene            58..300
+                     /gene="xseB"
+                     /locus_tag="FEO47_05725"
+     CDS             58..300
+                     /gene="xseB"
+                     /locus_tag="FEO47_05725"
+                     /EC_number="3.1.11.6"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015571292.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="exodeoxyribonuclease VII small subunit"
+                     /protein_id="QDK85014.1"
+                     /translation="MAKKNEAPVSFETSLNELEQIVTRLESGDLPLEEALNEFERGVQ
+                     LARQGQVKLQQAEQRVQILLSDNEDASPTPFTADNE"
+     gene            301..1200
+                     /gene="ispA"
+                     /locus_tag="FEO47_05720"
+     CDS             301..1200
+                     /gene="ispA"
+                     /locus_tag="FEO47_05720"
+                     /EC_number="2.5.1.10"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_414955.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="(2E,6E)-farnesyl diphosphate synthase"
+                     /protein_id="QDK85013.1"
+                     /translation="MDFSQQLQACVEQANQALSRFIAPLPFQNTPVVETMQYGALLGG
+                     KRLRPFLVYATGQMFGISLNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCH
+                     VKFGEANAILAGDALQTLAFSIISDAPMPEVADRDRIAMISELASASGIAGMCGGQAL
+                     DLDAEGKQVPLEALEKIHRHKTGALIRAAVRLGALSAGEKGRNALPILDKYAESIGLA
+                     FQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARNKARDLIAEARQSLNQ
+                     LAAQSLDTSALEALADYIIQRNK"
+     gene            1228..>1487
+                     /locus_tag="FEO47_05715"
+     CDS             1228..>1487
+                     /locus_tag="FEO47_05715"
+                     /EC_number="2.2.1.7"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_459417.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="1-deoxy-D-xylulose-5-phosphate synthase"
+                     /protein_id="QDK85012.1"
+                     /translation="MSFDIAKYPTLALVDSTQELRLLPKESLPKLCDELRRYLLDSVS
+                     RSSGHFASGLGTVELTVALHYVYNTPFDQLIWDVGHQAYPHKILTGRRDKIGTIRQKG
+                     GLHPFPWRGESEYDVLSVGHSSTSISAGIGVAVAAEKEGKDRRTVCVIGDGAITAGMA
+                     FEAMNHAGDIKPDMLVILNDNEMSISENVGALNNHLAQLLSGKLYSSLREGGKKVFSG
+                     VPPIKELLKRTEEHIKGMVVPGTLFEELGFNYIGPVDGHDVLGLITTLKNMRDLKGPQ
+                     FLHIMTKKGRGYEPAEKDPITFHAVPKFDPSSGCLPKSSGGLPSYSKIFGDWLCETAA
+                     KDSKLMAITPAMREGSGMVEFSRKFPDRYFDVAIAEQHAVTFAAGLAIGGYKPVVAIY
+                     STFLQRAYDQVIHDVAIQKLPVMFAIDRAGIVGADGQTHQGAFDLSYLRCIPDMVIMT
+                     PSDENECRQMLFTGYHYSDGPTAVRYPRGNAVGVELTPLEKLPIGKGVVKRRGEKLAI
+                     LNFGTLMPDAAKVAESLNATLVDMRFVKPLDEALILEMAACHEVLVTLEENAIMGGAG
+                     SGVNEVLMAHRKPVPVLNIGLPDFFIPQGTQDEARAGLGLDAAGIEAKIKAWLA"
+ORIGIN      
+        1 ttgctctgag tccgttacca tatcagggct gaaaatactg agagtccgac atttattatg
+       61 gcgaagaaaa atgaggcgcc ggtcagcttt gaaacgtcgc tgaacgagct ggagcaaatt
+      121 gtaacgcgtc tggaaagtgg cgatctgccg ctggaagagg cgctgaacga attcgaacgt
+      181 ggcgtgcagc tggcacgtca gggtcaggtg aaattgcaac aggctgaaca gcgtgtgcaa
+      241 attctgctgt ctgacaatga agacgcatcc cctacgcctt ttacagcgga taacgagtaa
+      301 atggattttt cgcagcagct tcaggcctgc gtcgagcagg ccaaccaggc gctgagccgt
+      361 tttattgccc cactgccctt tcagaacact cccgtggtcg aaaccatgca gtatggcgca
+      421 ttattaggcg gtaaacgtct gcgtccgttt ctggtgtatg ccaccggtca gatgtttggt
+      481 atcagcctga acacgctgga tgccccggca gccgccgttg agtgcattca tgcttactcg
+      541 ctgatccatg acgatctgcc tgcaatggac gatgacgatc tgcgtcgcgg cctgccgacc
+      601 tgtcacgtca agtttggcga ggccaatgcg attctggcgg gtgatgccct gcaaacgctg
+      661 gcattctcga ttatcagcga cgctccgatg ccggaagttg ctgaccgcga tcgaatcgca
+      721 atgatttccg agctggcgag cgccagtggc atcgccggaa tgtgcggtgg tcaggcgctg
+      781 gatctcgacg ccgaaggtaa acaggtgccg ctggaggcgc tggagaaaat ccatcgtcat
+      841 aagacgggcg cgttaattcg cgccgcggtt cgcctggggg cgttaagtgc cggagaaaaa
+      901 ggcagaaatg cactgccaat actcgataaa tacgcagaaa gtatcggtct ggcattccag
+      961 gttcaggatg acattctgga tgtggtgggc gatactgcaa cgttgggtaa acgtcagggc
+     1021 gccgatcagc agcttggcaa aagtacctat cctgcacttc tgggccttga gcaagcccgg
+     1081 aataaagccc gggatttaat cgcagaggct cgccagtcgc taaaccaact ggccgcacag
+     1141 tcactcgata cctcggcact ggaagcgcta gcggactaca taatccagcg taataaataa
+     1201 acactctgtc ttacttaaag gcctctgatg agttttgata tcgccaaata ccctaccctg
+     1261 gcactggtcg actccaccca ggagttacga ctgctaccaa aagagagtct gccgaaactc
+     1321 tgcgacgaac tgcgccgcta tttactcgac agcgtcagtc gttccagcgg acacttcgcc
+     1381 tccgggctgg gcacggtcga gctgactgtg gcgctacact atgtctataa caccccgttt
+     1441 gaccagctca tctgggacgt gggtcatcag gcttatccgc acaagat
+//
+

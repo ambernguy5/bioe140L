@@ -1,0 +1,71 @@
+>name	Box34								
+>description	New box for lycopene 34 ortholog scan containing oligos, gBlocks, and constructs								
+>location	minifridge								
+>plate_type	cardboard_box								
+>temperature	-20								
+									
+>>label	1	2	3	4	5	6	7	8	9
+A	gB6F	gB6R	oEbhF	oEbhR	oCbaF	oCbaR	oSeF	oSeR	Blyc72F					
+B	Blyc72R							
+C	Ebh	Cba 	Se	pLYC72	gKe					
+D	zEbh	zCba	zSe	b72	yb72							
+E				
+F									
+G									
+H									
+I									
+									
+>>side_label	1	2	3	4	5	6	7	8	9
+A		gB6F	gB6R	oEbhF	oEbhR	oCbaF	oCbaR	oSeF	oSeR	Blyc72F					
+B		Blyc72R							
+C		EnteroH	CitrobA	SalmE	pLYC72	gKe_ispA							
+D		pcrEbh	pcrCba	pcrSe	back72	yback72							
+E								
+F									
+G									
+H									
+I									
+									
+>>construct	1		2		3		4	5	6	7	8	9
+A		gB6F		gB6R		oEbhF		oEbhR	oCbaF	oCbaR	oSeF	oSeR	Blyc72F					
+B		Blyc72R							
+C		CP115689	CP041362.1	CP074309.1	pLYC72	gKe_ispA							
+D		pcrEbh		pcrCba		pcrSe		back72	yback72							
+E								
+F									
+G									
+H									
+I																		
+									
+>>clone	1	2	3	4	5	6	7	8	9
+A									
+B									
+C									
+D									
+E									
+F									
+G									
+H									
+I									
+									
+>>concentration	1	2	3	4	5	6	7	8	9
+A		100uM	100uM	100uM	100uM	100uM	100uM	100uM	100uM	100uM
+B		100uM							
+C		miniP	miniP	miniP	miniP	miniP					
+D		zymo	zymo	zymo	zymo	zymo							
+E								
+F									
+G									
+H									
+I									
+									
+>>culture	1	2	3	4	5	6	7	8	9
+A									
+B									
+C									
+D									
+E									
+F									
+G									
+H									
+I									

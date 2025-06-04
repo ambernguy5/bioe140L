@@ -1,0 +1,14 @@
+oEbhF: ccaaaGGTCTCtTACTaaccacgccattcacaccgg
+oEbhR: ttcagGGTCTCaAAGCaggctcatcgagatttatag
+
+oCbaF: ccaaaGGTCTCtTACTtgaagacgcatcccctacgc
+oCbaR: ttcagGGTCTCaAAGCcctttaagtaagacagagtg
+
+oSeF: ccaaaGGTCTCtTACTgaagaggcttcacctgagcc
+oSeR: ttcagGGTCTCaAAGCgcaagctcattggatatggg
+
+gB6F: ccaaaGGTCTCtGCTTGATGACGGCAGCCCTACTAG
+gB6R: ttcagGGTCTCaAGTACCAGTCAATTTCCGAGTAGG
+
+Blyc72F  acaataagagtctctgatgaGCTTGATGACGGCAGCCCTACTAG
+Blyc72R  gaggatagcccgctgacgccAGTACCAGTCAATTTCCGAGTAGG

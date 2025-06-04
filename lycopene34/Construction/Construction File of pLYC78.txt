@@ -1,0 +1,4 @@
+PCR oEbhF oEbhR CP115689.1 pcrEbh
+PCR gB6F gB6R pLYC72 back72
+GoldenGate pcrEbh back72 BsaI ggEbh
+Transform ggEbh Mach1 Amp 37 pLYC78

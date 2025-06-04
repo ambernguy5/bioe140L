@@ -1,0 +1,162 @@
+LOCUS       CP074309                1300 bp    DNA     linear   BCT 11-MAY-2021
+DEFINITION  Salmonella enterica subsp. enterica strain CFSAN004090 chromosome,
+            complete genome.
+ACCESSION   CP074309 REGION: 3432860..3434159
+VERSION     CP074309.1
+DBLINK      BioProject: PRJNA186035
+            BioSample: SAMN02709328
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica
+  ORGANISM  Salmonella enterica subsp. enterica
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Enterobacteriaceae; Salmonella.
+REFERENCE   1  (bases 1 to 1300)
+  AUTHORS   Hoffmann,M., Balkey,M. and Luo,Y.
+  TITLE     Whole genome PacBio Sequel sequence of Salmonella enterica subsp.
+            enterica
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1300)
+  AUTHORS   Hoffmann,M., Balkey,M. and Luo,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-2021) CFSAN, US FDA, 5001 Campus Drive, College
+            Park, MD 20740, USA
+COMMENT     The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: HGAP v. 4
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 143x
+            Sequencing Technology  :: PacBio
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 05/03/2021 12:47:46
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 5.1
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 4,534
+            CDSs (total)                      :: 4,410
+            Genes (coding)                    :: 4,336
+            CDSs (with protein)               :: 4,336
+            Genes (RNA)                       :: 124
+            rRNAs                             :: 8, 7, 7 (5S, 16S, 23S)
+            complete rRNAs                    :: 8, 7, 7 (5S, 16S, 23S)
+            tRNAs                             :: 85
+            ncRNAs                            :: 17
+            Pseudo Genes (total)              :: 74
+            CDSs (without protein)            :: 74
+            Pseudo Genes (ambiguous residues) :: 0 of 74
+            Pseudo Genes (frameshifted)       :: 27 of 74
+            Pseudo Genes (incomplete)         :: 46 of 74
+            Pseudo Genes (internal stop)      :: 21 of 74
+            Pseudo Genes (multiple problems)  :: 16 of 74
+            CRISPR Arrays                     :: 2
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1300
+                     /organism="Salmonella enterica subsp. enterica"
+                     /mol_type="genomic DNA"
+                     /strain="CFSAN004090"
+                     /isolation_source="jalapeno pepper"
+                     /sub_species="enterica"
+                     /db_xref="taxon:59201"
+                     /geo_loc_name="Mexico"
+                     /collection_date="2008-09-16"
+                     /collected_by="FDA"
+     gene            <1..200
+                     /gene="xseB"
+                     /locus_tag="JYM72_16660"
+     CDS             <1..200
+                     /gene="xseB"
+                     /locus_tag="JYM72_16660"
+                     /EC_number="3.1.11.6"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_459419.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=3
+                     /transl_table=11
+                     /product="exodeoxyribonuclease VII small subunit"
+                     /protein_id="QVC23374.1"
+                     /translation="MPKKNEAPASFETALSELEHIVTRLESGDLPLEDALNEFERGVQ
+                     LARQGQAKLQQAEQRVQILLSDNEEASPEPFIADNE"
+     gene            201..1100
+                     /gene="ispA"
+                     /locus_tag="JYM72_16665"
+     CDS             201..1100
+                     /gene="ispA"
+                     /locus_tag="JYM72_16665"
+                     /EC_number="2.5.1.10"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_459418.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="(2E,6E)-farnesyl diphosphate synthase"
+                     /protein_id="QVC23375.1"
+                     /translation="MDFTQQLQACVTQANQALSRFIAPLPFQNTPVVEAMQYGALLGG
+                     KRLRPFLVYATGQMFGVSTATLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCH
+                     IKFGEANAILAGDALQTLAFAIISDAPMPEVADRDRIAMIAELANASGIAGMCGGQAL
+                     DLAAEGQRITLDALERIHRHKTGALIRAAVRLGALSAGDKGRNTLPILDRYAESIGLA
+                     FQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARNKARDLIEDARQSLHQ
+                     LAAQSLDTSALEALANYIIQRDK"
+     gene            1124..>1300
+                     /gene="dxs"
+                     /locus_tag="JYM72_16670"
+     CDS             1124..>1300
+                     /gene="dxs"
+                     /locus_tag="JYM72_16670"
+                     /EC_number="2.2.1.7"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_459417.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="1-deoxy-D-xylulose-5-phosphate synthase"
+                     /protein_id="QVC23376.1"
+                     /translation="MSFDIAKYPTLALVDSTQELRLLPKESLPKLCDELRRYLLDSVS
+                     RSSGHFASGLGTVELTVALHYVYNTPFDQLIWDVGHQAYPHKILTGRRDKIGTIRQKG
+                     GLHPFPWRGESEYDVLSVGHSSTSISAGIGIAVAAEKEGKDRRTVCVIGDGAITAGMA
+                     FEAMNHAGDIRPDMLVILNDNEMSISENVGALNNHLAQLLSGKLYSSLREGGKKVFSG
+                     VPPIKELLKRTEEHIKGMVVPGTLFEELGFNYIGPVDGHDVMGLISTLKNMRDLKGPQ
+                     FLHIMTKKGRGYEPAEKDPITFHAVPKFDPSSGCLPKSSGGLPGYSKIFGDWLCETAA
+                     KDSKLMAITPAMREGSGMVEFSRKFPDRYFDVAIAEQHAVTFAAGLAIGGYKPVVAIY
+                     STFLQRAYDQVIHDVAIQKLPVMFAIDRAGIVGADGQTHQGAFDLSYLRCIPDMVIMT
+                     PSDENECRQMLFTGYHYNDGPTAVRYPRGNAQGVALTPLEKLPIGKGLVKRHGEKLAI
+                     LNFGTLMPEAAKVAEALNATLVDMRFVKPLDDTLILEMAAQHDALVTLEENAIMGGAG
+                     SGVNEVLMAHRKPVPVLNIGLPDFFIPQGTQEEAREELGLDAAGIEAKIKAWLA"
+ORIGIN      
+        1 tgagcgagct ggaacatatt gttacccgcc tggaaagcgg cgatttgccg ctggaagacg
+       61 cgctgaatga attcgagcgc ggcgtacaac tggcgcgtca ggggcaggca aaactgcagc
+      121 aggcggaaca gcgcgtgcaa attttgctgt ctgataatga agaggcttca cctgagcctt
+      181 ttatcgcgga taatgagtaa atggacttta cgcagcagct acaggcttgc gtaacgcaag
+      241 cgaatcaggc gctgagccgt tttatcgcgc cactgccctt tcagaacact cccgtggtcg
+      301 aagccatgca gtatggcgca ttattaggcg gtaaacgcct gcggccattt ctggtttacg
+      361 ccaccggtca aatgtttggc gtcagtacgg caacgctgga tgcgccagct gcggcggtcg
+      421 aatgcattca tgcctattcg ctgatccatg acgacctgcc agcaatggac gatgacgatt
+      481 tgcgtcgcgg cctgccgact tgccatatta aatttggcga agccaacgca atcctggcgg
+      541 gagacgcgtt gcagacgctg gcgtttgcca ttatcagcga cgcgccgatg ccggaagtcg
+      601 ccgatcgcga tcgtatcgcg atgatcgccg aactggcaaa cgccagcggt atcgccggta
+      661 tgtgcggcgg tcaggcattg gatctggcgg cagaaggcca gcggatcact ctggacgcgc
+      721 tggaacgcat tcatcgccat aagaccggcg cgctcattcg cgccgccgtt agacttggcg
+      781 cattgagcgc gggcgataaa ggacggaata ctctgccgat acttgaccgc tatgcagaga
+      841 gtatcggcct tgccttccag gttcaggatg acattctgga tgtggtgggc gatactgcaa
+      901 cgttaggtaa acgtcagggc gcagaccagc agcttggcaa aagtacctac cctgcacttc
+      961 tgggtcttga gcaagcccgg aataaagccc gggacctgat agaggacgcc cgtcagtcgt
+     1021 tacatcagct ggccgcgcaa tcactggaca cctcggcact ggaagcgcta gcgaactaca
+     1081 taatccagcg tgataaataa accccatatc caatgagctt gcgatgagtt ttgatatagc
+     1141 caaataccct accctggcat tggtcgactc cacccaggag ttacgactgt taccgaaaga
+     1201 gagtctgccg aaactctgcg acgagctacg ccgctactta ctcgacagcg taagccgttc
+     1261 cagcgggcat ttcgcttccg ggctgggcac ggtagaactt
+//
+

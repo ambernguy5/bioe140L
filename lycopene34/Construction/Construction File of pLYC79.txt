@@ -1,0 +1,4 @@
+PCR oCbaF oCbaR CP041362.1 pcrCba
+PCR gB6F gB6R pLYC72 back72
+GoldenGate crCba back72 BsaI ggCba
+Transform ggCba Mach1 Amp 37 pLYC79

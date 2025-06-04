@@ -1,0 +1,3 @@
+PCR Blyc72F Blyc72R pLYC72 yback72
+Gibson gKe_ispA yback72 ggKe
+Transform ggKe Mach1 Amp 37 pLYC81
