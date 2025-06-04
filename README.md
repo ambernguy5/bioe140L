@@ -1,4 +1,4 @@
-# bioe140L
+# ispA Ortholog Scan Project Files 
 This repo contains project planning guide for a lycopene34 ispA ortholog scan experiment. ispA encodes the enzyme farnesyl diphosphate synthase for isoprenoid production.
 
 Four orthologs were selected: 
